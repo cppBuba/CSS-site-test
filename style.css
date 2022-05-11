@@ -39,3 +39,6 @@ body {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
     color:rgb(255, 255, 255)
+  .a {
+    color: white
+  }

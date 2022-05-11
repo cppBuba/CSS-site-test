@@ -24,7 +24,7 @@ body {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   }
-  .sidenav a {
+  .sidenav a:link {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;

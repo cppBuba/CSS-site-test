@@ -32,9 +32,6 @@ body {
     color: rgb(130, 130, 130);
     display: block;
   }
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
   .main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
@@ -44,6 +41,9 @@ body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 20px;
     color: rgb(130, 130, 130)
+  }
+  .sidenav a:hover {
+    color:rgb(255, 255, 255)
   }
   .main a:link, a:visited {
     font-family: "Comic Sans MS", "Comic Sans", cursive;

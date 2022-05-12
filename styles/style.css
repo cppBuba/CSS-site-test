@@ -1,57 +1,55 @@
 body {
-    background-color: rgb(48, 50, 55);
-  }
+  background-color: rgb(48, 50, 55);
+}
   
-  h1 {
-    color: rgb(77, 92, 235);
-    text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans";
-    font-weight: bold;
-  }
-  
-  p {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 20px;
-  }
-  .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 170px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(42, 43, 47); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
-  .sidenav a:link {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: rgb(130, 130, 130);
-    display: block;
-  }
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-    color:rgb(255, 255, 255)
-  }
-  .sidenav a:link, a:visited {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 20px;
-    color: rgb(130, 130, 130)
-  }
-  .sidenav a:hover {
-    color:rgb(255, 255, 255)
-  }
-  .main a:link, a:visited {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 20px;
-    color: rgb(87 163 251)
-  }
-  .main a:hover {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 25px;
-    color: white
-  }
+h1 {
+  color: rgb(77, 92, 235);
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-weight: bold;
+}
+
+p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 170px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(42, 43, 47); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav a:link, a:visited {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: rgb(130, 130, 130);
+  display: block;
+}
+.sidenav a:hover {
+  color:rgb(255, 255, 255)
+}
+
+
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  color:rgb(255, 255, 255)
+}
+.main a:link, a:visited {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  color: rgb(87 163 251)
+}
+.main a:hover {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+  color: white
+}

@@ -17,7 +17,7 @@ p {
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 170px; /* Set the width of the sidebar */
+  width: 180px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -49,7 +49,7 @@ p {
   color:rgb(88 166 255);
 }
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 180px; /* Same as the width of the sidebar */
   padding: 0px 10px;
   color:rgb(255, 255, 255)
 }
@@ -57,4 +57,21 @@ p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 25px;
   color: white
+}
+
+.sidenav img:hover {
+  float: 
+  padding: 1px;
+  transition: transform .5s; /* Animation */
+  width: 120px;
+  height: 60px;
+  margin: 0 auto;
+  transform: scale(1.5);
+  
+  
+}
+
+.sidenav img {
+  display: block;
+  margin-left: auto;
 }
